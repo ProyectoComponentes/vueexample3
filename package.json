@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "starts": "npm run dev",
-     "start": "nod src/main.js",
+     "start": "node src/main.js",
     "build": "node build/build.js"
   },
   "dependencies": {
